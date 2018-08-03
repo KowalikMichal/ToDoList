@@ -1,4 +1,4 @@
-html {
+html{
 	box-sizing: border-box;
 	background:url('background.jpg') center no-repeat;
 	background-size:cover;
@@ -11,53 +11,43 @@ html {
 }
 *, *:before, *:after {box-sizing: inherit; }
 
-svg {
-	fill:white;
-	background: rgba(0,0,0,0.1);
-	padding: 20px;
-	border-radius: 50%;
-	width:200px;
-	margin-bottom: 50px;
-}
-
-.wrapper {
+.wrapper{
 	padding: 20px;
 	max-width: 350px;
 	background: rgba(255,255,255,0.95);
 	box-shadow: 0 0 0 10px rgba(0,0,0,0.1);
 }
 
-h2 {
+h2{
 	text-align: center;
 	margin: 0;
 	font-weight: 200;
 }
 
-.list {
+.list{
 	margin: 0;
 	padding: 0;
 	text-align: left;
 	list-style: none;
 }
 
-.list li {
+.list li{
 	border-bottom: 1px solid rgba(0,0,0,0.2);
 	padding: 10px 0;
 	font-weight: 100;
 	display: flex;
 }
 
-.list label {
+.list label{
 	flex:1;
 	cursor: pointer;
-
 }
 
-.list input {
+.list input{
 	margin-right: 10px;
 }
 
-.add-items {
+.add-items{
 	margin-top: 20px;
 }
 
@@ -77,9 +67,9 @@ form{
 	flex: 1 0 100%;
 }
 
- input[type="submit"] +  input[type="submit"]{
- 	margin-top: 10px;
- }
+input[type="submit"] + input[type="submit"]{
+	margin-top: 10px;
+}
 
 input[type="submit"]{
 	color: #444444;
@@ -91,14 +81,14 @@ input[type="submit"]{
 	outline: none;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover{
 	border: 1px #C6C6C6 solid;
 	box-shadow: 1px 1px 1px #EAEAEA;
 	color: #333333;
 	background: #F7F7F7;
 }
 
-input[type="submit"]:active {
+input[type="submit"]:active{
 	box-shadow: inset 1px 1px 1px #DFDFDF;   
 }
 
@@ -109,17 +99,17 @@ input[type="submit"]:active {
 	box-shadow: inset 0 1px 0 #80B0FB;
 }
 
-.add-Items > input[type="submit"]:hover {
+.add-Items > input[type="submit"]:hover{
 	border: 1px #2F5BB7 solid;
 	box-shadow: 0 1px 1px #EAEAEA, inset 0 1px 0 #5A94F1;
 	background: #3F83F1;
 }
 
-.add-Items > input[type="submit"]:active {
+.add-Items > input[type="submit"]:active{
 	box-shadow: inset 0 2px 5px #2370FE;   
 }
 
-input[type="submit"].red {
+input[type="submit"].red{
 	background: -webkit-linear-gradient(top, #DD4B39, #D14836); 
 	background: -moz-linear-gradient(top, #DD4B39, #D14836); 
 	background: -ms-linear-gradient(top, #DD4B39, #D14836); 
@@ -128,14 +118,14 @@ input[type="submit"].red {
 	text-shadow: 0 1px 0 #C04131;
 }
 
-input[type="submit"].red:hover {
+input[type="submit"].red:hover{
 	background: -webkit-linear-gradient(top, #DD4B39, #C53727);
 	background: -moz-linear-gradient(top, #DD4B39, #C53727);
 	background: -ms-linear-gradient(top, #DD4B39, #C53727);
 	border: 1px solid #AF301F;
 }
 
-input[type="submit"].red:active {
+input[type="submit"].red:active{
 	box-shadow: inset 0 1px 1px rgba(0,0,0,0.2);
 	background: -webkit-linear-gradient(top, #D74736, #AD2719);
 	background: -moz-linear-gradient(top, #D74736, #AD2719);
@@ -143,12 +133,12 @@ input[type="submit"].red:active {
 }
 
 .add-Items > input[type="text"]{
-	border:none;
+	border: none;
 	border-bottom:1px solid #757575;
 }
 
 .add-Items > input[type="text"]:focus{
-	outline:none;
+	outline: none;
 }
 
 input[type="checkbox"]:checked + label{
