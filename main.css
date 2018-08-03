@@ -1,5 +1,6 @@
-html{
+body{
 	box-sizing: border-box;
+	background:url('background.jpg') center no-repeat;
 	    background: url('background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
