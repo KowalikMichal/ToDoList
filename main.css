@@ -1,13 +1,20 @@
 html{
 	box-sizing: border-box;
-	background:url('background.jpg') center no-repeat;
+	    background: url('background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+
 	background-size:cover;
 	min-height:100vh;
 	display:flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	font-family: Futura,"Trebuchet MS",Arial,sans-serif
+	font-family: Futura,"Trebuchet MS",Arial,sans-serif;
 }
 *, *:before, *:after {box-sizing: inherit; }
 
